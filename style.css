@@ -1,0 +1,136 @@
+/* hacks and tricsks
+
+ ===========>       
+ text-shadow:
+         -1px -1px 0 #000,  
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+           1px 1px 0 #000;
+
+           */
+
+
+
+/*-----------variables-----*/
+
+
+
+
+
+/*-----------------------resets----------------*/
+*{
+        margin: 0;
+        padding: 0;
+        text-transform: capitalize;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*------------base styles------------------------------*/
+body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to right bottom , #BF7FE1,#0B1794);
+        color: white;
+}
+.container{
+        background : rgba(0, 0, 0, 0.322);
+       padding: 20px 80px;
+       
+     /*  box-shadow: 0.05px 0.05px 25px;*/
+}
+.upperpart{
+        padding: 1rem;
+
+}
+.username{
+        padding: 1rem;
+        
+}
+
+.password{
+        padding: 1rem;
+}  
+.username input, .password input{
+        border: none;
+        background:rgba(255, 255, 255, 0);
+        border-bottom: solid 0.5px white;
+        
+        
+} 
+
+.login{
+        display: flex;
+        padding: 1rem;
+        justify-content: center;
+
+}      
+button{
+        padding: 0.05rem 4rem;
+        background-image: linear-gradient(to right, #0c0cf6,#20c7e0);
+        border: none;
+        color: white;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+        cursor: pointer;
+}
+.legal {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        padding: 0.5rem;
+        
+}
+.legal h5 {
+        grid-column: 2/3;
+        
+}
+.legal p{
+        grid-row: 2/2;
+        font-size: 0.7rem;
+        padding: 0.3mrem;
+        
+}
+.one{
+        grid-column: 1/2;
+        border-right: solid 1px white;
+        
+}
+.two{
+        grid-column: 2/3;
+        border-right: solid 1px white;
+       
+}
+.three{
+        grid-column: 3/3;
+        
+}
+       
+/*------------------fonts--------------------*/
+
+
+
+
+
+/*----------------mobile styles-------------------------------*/
+
+
+
+
+
+/*-------------------small screen---------------------- */
+@media screen and (min-width : 600px){
+    
+}
+
+
+
+/*--------------------------tablets and laptops--------------------------*/
+@media screen and (min-width : 1000px){
+    
+}
+
+
+/*--------------------------larger screens-----------------*/
